@@ -99,3 +99,5 @@ print(min(lista))
 
 print(max(lista))
 
+print(lista[::3])
+
