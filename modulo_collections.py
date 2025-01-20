@@ -39,3 +39,42 @@ a cada instante de amor.
 print(texto)
 
 print(Counter(texto.lower().split()))
+
+print(contador.keys())
+
+print(contador.values())
+
+print(contador.items())
+
+print(contador.most_common())
+
+print(contador.most_common(1))
+
+print(contador.most_common(3))
+
+from collections import defaultdict
+
+dados = defaultdict(list)
+
+print(dados)
+
+dados["nome"] = 'Vinicius'
+
+dados["sobrenome"]
+
+print(dados)
+
+print(texto.lower())
+
+for i in texto.lower().split():
+    dados[i].append(i)
+
+
+print(dados)
+
+from collections import OrderedDict
+
+dict_a = {'a':1, 'b':1}
+dict_b = {'b':2, 'a':1}
+
+print(dict_a == dict_b)
