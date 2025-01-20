@@ -9,3 +9,4 @@ lista3 = lista2.copy()
 lista1.append(10)
 
 lista1.clear()
+
